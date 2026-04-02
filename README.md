@@ -102,12 +102,12 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 - What worked well? What didn't?
 
 **Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
-
+ 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Add your name here](https://vercel.com/sam-sucs-projects/rating-component/7tBn8wQFa57K3gGEg7yG8TwVWzNZ)
+- Frontend Mentor - [@Sam-suc](https://www.frontendmentor.io/profile/Sam-suc)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
