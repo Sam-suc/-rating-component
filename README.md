@@ -105,7 +105,7 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
  
 ## Author
 
-- Website - [Add your name here]([https://vercel.com/sam-sucs-projects/rating-component/7tBn8wQFa57K3gGEg7yG8TwVWzNZ](https://rating-component-sam.vercel.app/))
+- Website - [ratingcomponent](https://rating-component-sam.vercel.app/)
 - Frontend Mentor - [@Sam-suc](https://www.frontendmentor.io/profile/Sam-suc)
 
 
