@@ -1,0 +1,113 @@
+/* Variables for colors */
+:root {
+  --orange: #fb7413;
+  --white: #ffffff;
+  --light-grey: #959eac;
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+}
+
+/* Reset and Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Styling */
+.card {
+  background: radial-gradient(circle at top, #232c33, #181e27);
+  padding: 30px;
+  border-radius: 30px;
+  max-width: 400px;
+  width: 90%;
+}
+
+.star-icon {
+  background-color: var(--dark-blue);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card__title {
+  color: var(--white);
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card__text {
+  color: var(--light-grey);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Rating Interaction Styling */
+.rating-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating-item input {
+  display: none; /* Hide the actual radio button circles */
+}
+
+.rating-item span {
+  width: 50px;
+  height: 50px;
+  background-color: var(--dark-blue);
+  color: var(--light-grey);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rating-item span:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* This styles the circle when the hidden radio button is checked */
+.rating-item input:checked + span {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+/* Button Styling */
+.submit-btn {
+  width: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
