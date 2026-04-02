@@ -33,9 +33,9 @@ Users should be able to:
 ### Screenshot
 
 
-![Desktop Solution](.design\desktop.PNG)
-![Active state Solution](.design/active.PNG)
-![Thank you Solution](.design/thankyou.PNG)
+![Desktop Solution](design\desktop.PNG)
+![Active state Solution](design/active.PNG)
+![Thank you Solution](design/thankyou.PNG)
 
 
 
