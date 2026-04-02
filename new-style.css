@@ -1,3 +1,86 @@
+/* Variables for colors */
+:root {
+  --orange: #fb7413;
+  --white: #ffffff;
+  --Grey-500: hsl(217, 12%, 63%);
+  --light-grey: #959eac;
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+}
+
+/* Reset and Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: white;
+  font-family: "Overpass", sans-serif;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: radial-gradient(circle at top, #232c33, #181e27);
+  padding: 25px;
+  border-radius: 30px;
+  max-width: 400px;
+  width: 95%;
+}
+
+.thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.rating-result {
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--orange);
+  background-color: var(--dark-blue);
+  width: 200px;
+  margin-left: 60px;
+  padding: 8px 5px;
+  border-radius: 20px;
+}
+
+.card__greeting {
+  color: var(--white);
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card__text {
+  text-align: center;
+  color: var(--light-grey);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Resposive Design*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container {
+    margin-left: 20px;
+  }
+  .rating-result {
+    margin-left: 15px;
+  }
+}
+@media (width: 375px) {
+  .rating-result {
+    margin-left: 50px;
+  }
+}
+@media (width: 425px) {
+  .container {
+    margin-left: 30px;
+  }
 }/*# sourceMappingURL=new-style.css.map */

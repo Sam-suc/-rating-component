@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="new-style.css">
+    <title>Thankyou</title>
 </head>
 <body>
-    
+  <main class="container">
+    <div class="card">
+      <!--thank You Illustration image-->
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="image">
+      </div>
+      <!--text area-->
+      <p class="rating-result"></p>
+      <h1 class="card__greeting">Thank you!</h1>
+      <P class="card__text">We appreciate you taking the time to give a rating.If
+        you ever need more support, don't hesitate to get in touch!</P>
+    </div>
+  </main>  
+
+  <script>
+    //  GET the value from localStorage
+
+    const savedRate = localStorage.getItem('userRating');
+
+    let paragraph = document.querySelector(".rating-result");
+
+    paragraph.innerHTML = 'You selected ' + savedRate + ' out of 5';
+  </script>
 </body>
 </html>

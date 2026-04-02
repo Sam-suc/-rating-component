@@ -1,22 +1,21 @@
-  // Select the button
 
-const btn = document.querySelector(".submit-btn");
+    // Inside your first JS file or <script> tag:
+   const submitBtn = document.querySelector('.submit-btn');
 
-  // Listen for the click
+   submitBtn.addEventListener('click', () => {
+    // 1. Get the checked radio button
+    const selected = document.querySelector('input[name="rating"]:checked');
+    
+    if (selected) {
+        // 2. SAVE the value to localStorage
+        localStorage.setItem('userRating', selected.value);
+        
+        
+        // 3. Move to the next page
+        window.location.href = "new.html"; 
+    } else {
+      alert("Please select a rating!")
+    }
+});
 
-btn.addEventListener('click', () =>{
-  
-  //  Create a new link element
 
-  const newStyleLink = document.createElement('link');
-  newStyleLink.rel = 'stylesheet';
-  newStyleLink.href = 'new-style.css'; // Path to your second CSS file
-  document.head.appendChild(newStyleLink);
-
-   // Define  NEW HTML structure as a string
-  const newHtml = `
-     <h1> I think we did it !<h1>
-  
-  `
-   document.body.innerHTML = newHtml;
- });
