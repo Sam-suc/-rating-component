@@ -111,3 +111,29 @@ body {
   color: var(--dark-blue);
 }
 
+ /* Responsive-design */
+
+@media screen and (min-width: 320px) and (max-width: 375px) { 
+      .container {
+      margin-left: 30px;
+    }
+    .rating-item span {
+      width: 40px;
+      height: 40px;
+
+      }
+ }
+
+ @media screen and (max-width: 320px) {
+  .rating-item span {
+    width: 35px;
+    height: 35px;
+  
+  }
+ }
+
+ @media (width: 425px) {
+    .container {
+    margin-left: 30px;
+  }
+ }
