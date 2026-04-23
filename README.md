@@ -8,7 +8,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -41,10 +40,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Sam-suc/-rating-component)
-- Live Site URL: [Add live site URL here](https://rating-component-sam.vercel.app/)
+- Solution URL: [solution URL ](https://github.com/Sam-suc/-rating-component)
+- Live Site URL: [ live site URL](https://rating-component-sam.vercel.app/)
 
-### My Process
+
 
 
 
@@ -65,10 +64,6 @@ The things I learned are, like how to integret advanced css like SCSS,
 ### Continued development
  In the future I want to focus on improving my skills and do full-stack projects.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 
